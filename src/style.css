@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+}
+
+.fade-enter-active,
+.fade-exit-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-exit-to {
+    opacity: 0;
+}
+
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-exit-active {
+    transition: all .8s cubic-bezier(1, 0.5, 0.8, 1);
+}

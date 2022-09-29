@@ -1,0 +1,30 @@
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.subsecond {
+    color: silver;
+}
+
+.hour, .minute {
+    color: black;
+}
+
+.hour::after {
+    font-size: 32px;
+    display: inline-block;
+    margin: 10px 0 0 -5px;
+}
+
+.hour::after {
+    content: "12";
+    transform: translateX(-10px);
+}
+
+.second {
+    color: tomato;
+}
